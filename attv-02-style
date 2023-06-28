@@ -1,0 +1,60 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+#terra{
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 1px;
+    width: 500px;
+}
+
+
+/* Finn */
+
+#finn {
+    text-align: left;
+}
+
+#texto_finn{
+    text-align: left;
+}
+
+.finnbox{
+    width: 400px;
+    text-align: justify;
+    border: 5px solid white;
+    padding: 15px;
+    font-size: small;
+    margin: 10px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.img_finn{
+    display: inline-block;
+    border-radius: 75%;
+    overflow: hidden;
+    width: 315px;
+    height: 315px;
+}
+.img_finn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cape;
+}
